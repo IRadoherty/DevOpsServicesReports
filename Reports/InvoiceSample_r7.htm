@@ -1,0 +1,202 @@
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ir="http://www.inrule.com/XmlSchema/Schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+          body {
+          font: normal 8pt verdana,arial,helvetica;
+          color: #000000;
+          }
+          table tr th, table tr td {
+          font-size: 8pt;
+          text-align: left;
+          }
+          table.fields tr th{
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.fields tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+
+          table.rules tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.rules tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.calculations tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.calculations tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          table-layout:fixed;
+          overflow:visible;
+          }
+          table.notifications tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.notifications tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.actions tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.actions tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          h1 {
+          margin: 0px 0px 5px;
+          font: 14pt verdana,arial,helvetica;
+          }
+          h2 {
+          margin-top: 1em;
+          margin-bottom: 0.5em;
+          font: bold 125% verdana,arial,helvetica;
+          }
+          div.entity {
+          border: 1px solid #cccccc;
+          margin-bottom: 1em;
+          }
+          div.def {
+          border-bottom: 1px solid #cccccc;
+          }
+          div.rules {
+          border-bottom: 1px solid #cccccc;
+          }
+          span.colx {
+          
+          }
+          .code {
+          font-size: 11px;
+          font-weight: normal;
+          font-family: Lucida Console, monospace;
+          background-color: #eeeeee;
+          padding: 0.25cm;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #cccccc
+          }
+          table.rulesetfields tr {
+          background:#a6caf0;
+          text-align:left;
+          }
+          table.rulesetfields tr td {
+          font-size: 8pt;
+          text-align: left;
+          font-weight: normal;
+          background-color:tan;
+          }
+
+        </style>
+  </head>
+  <body>
+    <h1>InRule RuleApp Report</h1>
+        RuleApp Name:
+        InvoiceSample
+        Guid:
+        7544a713-f862-40d4-bfc4-b45504bce354
+        Last Modified:
+        2022-12-05<br><br>
+          Total # Rules and Calcs:
+          2
+            # Entities:
+            2
+            # Fields:
+            11<br><hr size="1"><h2>Entities:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Entity1">Invoice</a></td><td><a class="HrefLink" href="#Entity2">LineItem</a></td><td></td><td></td></tr></table><h2>Independent Rule Sets:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"></table><h2>Data Elements, End Points, Udf Libraries and Categories:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#DataElements">
+                    Data Elements
+                  </a></td><td><a class="HrefLink" href="#EndPoints">
+                    End Points
+                  </a></td><td><a class="HrefLink" href="#UdfLibraries">
+                    Udf Libraries
+                  </a></td><td><a class="HrefLink" href="#Categories">
+                    Categories
+                  </a></td><td></td></tr></table><div class="entity"><a class="HrefName" name="Entity1"></a><h2>
+          Entity: Invoice</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields1">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations1">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules1">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions1">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields1"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">CustID</span></td><td><span class="colx">CustID</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx">
+      Description:
+      Enter a value of between 1 and 10. Blank or 0 value IDs should result in a validation error.</span></td></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">LineItems</span></td><td><span class="colx">LineItems</span></td><td><span class="colx">LineItem</span></td><td></td><td><span class="colx">
+      Description:
+      This is a collection, or 1-to-many relationship, connecting line items to the invoice. To add a line item, click Add to the left and then expand the section. </span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations1"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">CustName</span></td><td><span class="colx">CustName</span></td><td><span class="colx">String</span></td><td><span class="colx"><pre>TableLookup(CustomerTable, "Name","ID",CustID)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated field, using our TableLookup function.</span></td></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">Subtotal</span></td><td><span class="colx">Subtotal</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>sum(LineItems,LineItemTotal)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated field, which sums the total of each line item.</span></td></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">Tax</span></td><td><span class="colx">Tax</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>round(0.07 * Subtotal,2)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated field, currently set to 7% of the Subtotal.</span></td></tr><tr><td><span class="colx">Invoice</span></td><td><span class="colx">Total</span></td><td><span class="colx">Total</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Round(Subtotal+Tax,2)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated field, the sum of Subtotal + Tax</span></td></tr></table></div><a class="HrefName" name="Rules1"></a><div class="rules"><h2>
+          Rule Set:
+          InvoiceValidation</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Sequential
+      Description:
+      This rule set performs data validation on the customer name (which is looked up from Customer ID). <table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top" title="CheckCustName"><span class="colx">CheckCustName</span></td><td><span class="colx"><b>If</b><br>&nbsp;&nbsp;&nbsp;&nbsp; <b>CustName</b> is null or empty<br><b>Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;mark <b>CustID</b> invalid and display "The Customer ID " & <b>CustID</b> & " is not valid." </span></td><td></td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          RuleSet1</h2>
+    Fire mode:
+    Explicit<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr></table></div></div><div class="entity"><a class="HrefName" name="Entity2"></a><h2>
+          Entity: LineItem</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields2">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations2">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules2">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions2">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields2"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">LineItem</span></td><td><span class="colx">ProductID</span></td><td><span class="colx">ProductID</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx">
+      Description:
+      Enter a value of between 1 and 10. Blank or 0 value IDs should result in a validation error.</span></td></tr><tr><td><span class="colx">LineItem</span></td><td><span class="colx">Quantity</span></td><td><span class="colx">Quantity</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx">
+      Description:
+      Enter an integer.</span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations2"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">LineItem</span></td><td><span class="colx">ProductName</span></td><td><span class="colx">ProductName</span></td><td><span class="colx">String</span></td><td><span class="colx"><pre>TableLookup(ProductTable,"Name","ID",ProductID)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated field, using our TableLookup function.</span></td></tr><tr><td><span class="colx">LineItem</span></td><td><span class="colx">UnitPrice</span></td><td><span class="colx">UnitPrice</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Format(TableLookup(ProductTable,"Price","ID",ProductID),"#,##0.00")</pre></span></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">LineItem</span></td><td><span class="colx">LineItemTotal</span></td><td><span class="colx">LineItemTotal</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Quantity*UnitPrice</pre></span></td><td><span class="colx"></span></td></tr></table></div><a class="HrefName" name="Rules2"></a><div class="rules"><h2>
+          Rule Set:
+          LineItemValidation</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Sequential
+      Description:
+      For each item on the invoice, this rule set performs data validation and marks any invalid product IDs as such.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top" title="CheckLineItem"><span class="colx">CheckLineItem</span></td><td><span class="colx"><b>If</b><br>&nbsp;&nbsp;&nbsp;&nbsp; <b>ProductName</b> is equal to ""<br>&nbsp;&nbsp;&nbsp;&nbsp; or <b>ProductName</b> is null or empty <br><b>Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;mark <b>ProductID</b> invalid and display "The Product ID" & <b>ProductID</b> & " was not found." </span></td><td></td></tr></table></div></div><div class="entity"><a class="HrefName" name="DataElements"></a><h2>Data Elements:</h2><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col width="60%"><tr><th>Data Element Parent</th><th>Data Element Name</th><th>Details</th></tr><tr><td><span class="colx">InvoiceSample</span></td><td><span class="colx">CustomerTable</span></td><td><span class="colx"><table class="" bordercolor="#cccccc" border="1" cellpadding="2" cellspacing="2"><tr><td><u>ID
+        (Integer)
+      </u></td><td><u>Name
+        (Text)
+      </u></td></tr><tr><td>1??</td><td>?Alfred Futterkiste?</td></tr><tr><td>2??</td><td>?Ana Trujillo Emparedados y helados?</td></tr><tr><td>3??</td><td>?Antonio Moreno Taquer?a?</td></tr><tr><td>4??</td><td>?Berglunds snabbk?p?</td></tr><tr><td>5??</td><td>?Blauer See Delikatessen?</td></tr><tr><td>6??</td><td>?Blondel p?re et fils?</td></tr><tr><td>7??</td><td>?Bottom-Dollar Markets?</td></tr><tr><td>8??</td><td>?Cactus Comidas para llevar?</td></tr><tr><td>9??</td><td>?Ernst Handel?</td></tr><tr><td>10??</td><td>?Familia Arquibaldo?</td></tr></table></span></td></tr><tr><td><span class="colx">InvoiceSample</span></td><td><span class="colx">ProductTable</span></td><td><span class="colx"><table class="" bordercolor="#cccccc" border="1" cellpadding="2" cellspacing="2"><tr><td><u>ID
+        (Integer)
+      </u></td><td><u>Name
+        (Text)
+      </u></td><td><u>Price
+        (Decimal)
+      </u></td></tr><tr><td>1???</td><td>?Garbage Bags??</td><td>??2.60?</td></tr><tr><td>2???</td><td>?Golden Grahms??</td><td>??4.50?</td></tr><tr><td>3???</td><td>?Coke 2 Liter Bottle??</td><td>??1.19?</td></tr><tr><td>4???</td><td>?2% Milk 1 Gallon??</td><td>??3.78?</td></tr><tr><td>5???</td><td>?Fish Sticks??</td><td>??3.43?</td></tr><tr><td>6???</td><td>?Thinkpad Computer??</td><td>??3500.00?</td></tr><tr><td>7???</td><td>?Television??</td><td>??200.00?</td></tr><tr><td>8???</td><td>?DVD Player??</td><td>??119.00?</td></tr><tr><td>9???</td><td>?MP3 Player??</td><td>??249.99?</td></tr><tr><td>10???</td><td>?6pk Hot Dogs??</td><td>??3.49?</td></tr></table></span></td></tr></table></div></body>
+</html>
