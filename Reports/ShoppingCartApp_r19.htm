@@ -1,0 +1,300 @@
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ir="http://www.inrule.com/XmlSchema/Schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+          body {
+          font: normal 8pt verdana,arial,helvetica;
+          color: #000000;
+          }
+          table tr th, table tr td {
+          font-size: 8pt;
+          text-align: left;
+          }
+          table.fields tr th{
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.fields tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+
+          table.rules tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.rules tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.calculations tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.calculations tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          table-layout:fixed;
+          overflow:visible;
+          }
+          table.notifications tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.notifications tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.actions tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.actions tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          h1 {
+          margin: 0px 0px 5px;
+          font: 14pt verdana,arial,helvetica;
+          }
+          h2 {
+          margin-top: 1em;
+          margin-bottom: 0.5em;
+          font: bold 125% verdana,arial,helvetica;
+          }
+          div.entity {
+          border: 1px solid #cccccc;
+          margin-bottom: 1em;
+          }
+          div.def {
+          border-bottom: 1px solid #cccccc;
+          }
+          div.rules {
+          border-bottom: 1px solid #cccccc;
+          }
+          span.colx {
+          
+          }
+          .code {
+          font-size: 11px;
+          font-weight: normal;
+          font-family: Lucida Console, monospace;
+          background-color: #eeeeee;
+          padding: 0.25cm;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #cccccc
+          }
+          table.rulesetfields tr {
+          background:#a6caf0;
+          text-align:left;
+          }
+          table.rulesetfields tr td {
+          font-size: 8pt;
+          text-align: left;
+          font-weight: normal;
+          background-color:tan;
+          }
+
+        </style>
+  </head>
+  <body>
+    <h1>InRule RuleApp Report</h1>
+        RuleApp Name:
+        ShoppingCartApp
+        Guid:
+        43886889-b1fe-432f-979b-eed5f57358ec
+        Last Modified:
+        2022-12-06<br><br>
+          Total # Rules and Calcs:
+          5
+            # Entities:
+            2
+            # Fields:
+            16<br><hr size="1"><h2>Entities:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Entity1">ShoppingCart</a></td><td><a class="HrefLink" href="#Entity2">Item</a></td><td></td><td></td></tr></table><h2>Independent Rule Sets:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"></table><h2>Data Elements, End Points, Udf Libraries and Categories:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#DataElements">
+                    Data Elements
+                  </a></td><td><a class="HrefLink" href="#EndPoints">
+                    End Points
+                  </a></td><td><a class="HrefLink" href="#UdfLibraries">
+                    Udf Libraries
+                  </a></td><td><a class="HrefLink" href="#Categories">
+                    Categories
+                  </a></td><td></td></tr></table><div class="entity"><a class="HrefName" name="Entity1"></a><h2>
+          Entity: ShoppingCart -- Display Name: Shopping Cart</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields1">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations1">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules1">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions1">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields1"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">Date</span></td><td><span class="colx">Date</span></td><td><span class="colx">Date</span></td><td></td><td><span class="colx">
+      Description:
+      Used by a rule to determine if a discount should be applied.</span></td></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">ShipToState</span></td><td><span class="colx">Ship To State</span></td><td><span class="colx">String</span></td><td>"IL"</td><td><span class="colx">
+      Description:
+      Used by a decision table to calculate sales tax.</span></td></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">DiscountAmount</span></td><td><span class="colx">Discount Amount</span></td><td><span class="colx">Decimal</span></td><td>0</td><td><span class="colx">
+      Description:
+      This will be calculated by the rule application.</span></td></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">Items</span></td><td><span class="colx">Items</span></td><td><span class="colx">Item</span></td><td></td><td><span class="colx">
+      Description:
+      Click "Add" in irVerify to add an item to the cart, or simply load a pre-populated JSON file. </span></td></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">PromotionalCode</span></td><td><span class="colx">Promotional Code</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx">
+      Description:
+      Valid promo code is STUDIO.  Used by a rule to determine if a discount should be applied. </span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations1"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">CartTotalBeforeDiscount</span></td><td><span class="colx">Cart Total Before Discount</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Sum(Items, Subtotal) + Sum(Items, TaxAmount)</pre></span></td><td><span class="colx">
+      Description:
+      This is the total, with tax, before discount.</span></td></tr><tr><td><span class="colx">ShoppingCart</span></td><td><span class="colx">Total</span></td><td><span class="colx">Total</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Sum(Items, Subtotal) + Sum(Items, TaxAmount) - DiscountAmount</pre></span></td><td><span class="colx">
+      Description:
+      This is the total, with tax, after the discount has been applied.</span></td></tr></table></div><a class="HrefName" name="Rules1"></a><div class="rules"><h2>
+          Rule Set:
+          Start</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Single-Pass Sequential
+      Description:
+      Rule set checks the cart for items and also validates if a discount should be applied based on order date and promo code.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top" title="CheckCartForItems"><span class="colx">CheckCartForItems</span></td><td><span class="colx"><b>If</b><br>&nbsp;&nbsp;&nbsp;&nbsp; the number of <b>Items</b> is equal to 0<br><b>Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;mark <b>this Shopping Cart</b> invalid and display "There are no items in this Shopping Cart" </span></td><td></td></tr><tr><td valign="top" title="TimeBasedPromotion"><span class="colx">TimeBasedPromotion</span></td><td><span class="colx"><b>If</b><br>&nbsp;&nbsp;&nbsp;&nbsp; customer has entered a promo code of "STUDIO" and they are ordering between 1/15/2021 12:00:00 AM and 3/30/2021 12:00:00 AM<br><b>Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;apply a discount of 10.00 USD to the cart </span></td><td></td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          ApplyDiscountRules</h2>
+    Fire mode:
+    Explicit<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top" title="ApplyDiscount"><span class="colx">ApplyDiscount</span></td><td><span class="colx"><b>Take the following actions:</b><br>&nbsp;&nbsp;&nbsp;&nbsp;set <b>Discount Amount</b> to <b>amount</b><br>&nbsp;&nbsp;&nbsp;&nbsp;fire notification "A discount of &lt;% amount %&gt; USD has been applied." </span></td><td></td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          RuleSet123</h2>
+    Fire mode:
+    Explicit<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr></table></div></div><div class="entity"><a class="HrefName" name="Entity2"></a><h2>
+          Entity: Item</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields2">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations2">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules2">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions2">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields2"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">ProductID</span></td><td><span class="colx">Product ID</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx">
+      Description:
+      Initially, valid values are between 1 and 4.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">Quantity</span></td><td><span class="colx">Quantity</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx">
+      Description:
+      Enter an integer.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">PricePerUnit</span></td><td><span class="colx">Price Per Unit</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx">
+      Description:
+      Enter a decimal value in USD.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">TaxRate</span></td><td><span class="colx">Tax Rate</span></td><td><span class="colx">Decimal</span></td><td>0</td><td><span class="colx">
+      Description:
+      This is the percentage tax rate, expressed as a decimal, for taxable items. This is determined using a decision table.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">TaxAmount</span></td><td><span class="colx">Tax Amount</span></td><td><span class="colx">Decimal</span></td><td>0</td><td><span class="colx">
+      Description:
+      This is calculated by multiplying the tax rate by the subtotal for an item.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">InfoMessage</span></td><td><span class="colx">Info Message</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx">
+      Description:
+      This is a field that will be used in Author Studio Getting Started videos 5 and 6.</span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations2"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">ProductDescription</span></td><td><span class="colx">Product Description</span></td><td><span class="colx">String</span></td><td><span class="colx"><pre>TableLookup(TableProduct,"LongDescription","ID",ProductID)</pre></span></td><td><span class="colx">
+      Description:
+      This is a lookup function and will return a value during execution.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">Type</span></td><td><span class="colx">Type</span></td><td><span class="colx">String</span></td><td><span class="colx"><pre>TableLookup(TableProduct,"Type","ID",ProductID)</pre></span></td><td><span class="colx">
+      Description:
+      This is a lookup function and will return a value during execution.</span></td></tr><tr><td><span class="colx">Item</span></td><td><span class="colx">Subtotal</span></td><td><span class="colx">Subtotal</span></td><td><span class="colx">Decimal</span></td><td><span class="colx"><pre>Round(PricePerUnit * Quantity, 2)</pre></span></td><td><span class="colx">
+      Description:
+      Calculated during execution as price per unit multiplied by quantity.</span></td></tr></table></div><a class="HrefName" name="Rules2"></a><div class="rules"><h2>
+          Rule Set:
+          ItemValidation</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Single-Pass Sequential
+      Description:
+      This rule set is run for every item in the cart. It is validating ProductID.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top" title="ValidateItems"><span class="colx">ValidateItems</span></td><td><span class="colx"><b>If</b><br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Product ID</b> is null or empty or <b>Product Description</b> is null or empty<br><b>Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;mark <b>Product ID</b> invalid and display "The item with the ID " & <b>Product ID</b> & " is not valid." </span></td><td></td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          CalculateTaxPerItem</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Single-Pass Sequential
+      Description:
+      This rule set uses a decision table to check the ship to state and the item type (taxable or not) to determine what tax rate to apply to each item.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top"><span class="colx">TaxRates</span></td><td><span class="colx"><b>Decision Table</b><br><u>Condition:</u>?Type<br>
+              Field:
+              Type<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Non-Tax</td><td>Type
+                      =
+                      Non-Tax</td></tr><tr><td>Taxable</td><td>Type
+                      =
+                      Taxable</td></tr></table><br><u>Condition:</u>?State<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              ShoppingCart.ShipToState<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Arizona</td><td>ShoppingCart.ShipToState
+                      =
+                      AZ</td></tr><tr><td>Illinois</td><td>ShoppingCart.ShipToState
+                      =
+                      IL</td></tr><tr><td>North Carolina</td><td>ShoppingCart.ShipToState
+                      =
+                      NC</td></tr><tr><td>New York</td><td>ShoppingCart.ShipToState
+                      =
+                      NY</td></tr><tr><td>Alabama</td><td>ShoppingCart.ShipToState
+                      =
+                      AL</td></tr><tr><td>Arkansas</td><td>ShoppingCart.ShipToState
+                      =
+                      AK</td></tr><tr><td>California</td><td>ShoppingCart.ShipToState
+                      =
+                      CA</td></tr><tr><td>Colorado</td><td>ShoppingCart.ShipToState
+                      =
+                      CO</td></tr><tr><td>Connecticut</td><td>ShoppingCart.ShipToState
+                      =
+                      CT</td></tr><tr><td>Florida</td><td>ShoppingCart.ShipToState
+                      =
+                      FL</td></tr><tr><td>Georgia</td><td>ShoppingCart.ShipToState
+                      =
+                      GA</td></tr><tr><td>Idaho</td><td>ShoppingCart.ShipToState
+                      =
+                      ID</td></tr><tr><td>Hawaii</td><td>ShoppingCart.ShipToState
+                      =
+                      HI</td></tr><tr><td>Indiana</td><td>ShoppingCart.ShipToState
+                      =
+                      IN</td></tr><tr><td>Louisiana</td><td>ShoppingCart.ShipToState
+                      =
+                      LA</td></tr><tr><td>Massachusetts</td><td>ShoppingCart.ShipToState
+                      =
+                      MA</td></tr><tr><td>Maryland</td><td>ShoppingCart.ShipToState
+                      =
+                      MD</td></tr><tr><td>Minnesota</td><td>ShoppingCart.ShipToState
+                      =
+                      MN</td></tr><tr><td>Missouri</td><td>ShoppingCart.ShipToState
+                      =
+                      MO</td></tr><tr><td>Nevada</td><td>ShoppingCart.ShipToState
+                      =
+                      NV</td></tr><tr><td>New Hampshire</td><td>ShoppingCart.ShipToState
+                      =
+                      NH</td></tr><tr><td>Ohio</td><td>ShoppingCart.ShipToState
+                      =
+                      OH</td></tr><tr><td>Kentucky</td><td>ShoppingCart.ShipToState
+                      =
+                      KY</td></tr><tr><td>Iowa</td><td>ShoppingCart.ShipToState
+                      =
+                      IA</td></tr></table><br><u>Action:</u>?TaxRate
+                (Set Value)
+              <br>
+              Display name:
+              Set Item Sales Tax Rate<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Value</th><th>Display name</th></tr></b><tr><td>0</td><td>0</td></tr><tr><td>0.04</td><td>4%</td></tr><tr><td>0.05</td><td>5%</td></tr><tr><td>0.056</td><td>5.6%</td></tr><tr><td>0.07</td><td>7%</td></tr></table><br><u>Decisions</u><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th class="rules">Row #</th><th class="rules">Type</th><th class="rules">State</th><th class="rules" style="COLOR:#009900">Set Item Sales Tax Rate</th></tr><tr><td>1</td><td valign="top">Non-Tax</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">0</td></tr><tr><td>2</td><td valign="top">Taxable</td><td valign="top">Arizona</td><td valign="top">5.6%</td></tr><tr><td>3</td><td valign="top">Taxable</td><td valign="top">Arkansas</td><td valign="top">5%</td></tr><tr><td>4</td><td valign="top">Taxable</td><td valign="top">California</td><td valign="top">7%</td></tr><tr><td>5</td><td valign="top">Taxable</td><td valign="top">Alabama</td><td valign="top">4%</td></tr><tr><td>6</td><td valign="top">Taxable</td><td valign="top">Colorado</td><td valign="top">5%</td></tr><tr><td>7</td><td valign="top">Taxable</td><td valign="top">Connecticut</td><td valign="top">4%</td></tr><tr><td>8</td><td valign="top">Taxable</td><td valign="top">Florida</td><td valign="top">5.6%</td></tr><tr><td>9</td><td valign="top">Taxable</td><td valign="top">Georgia</td><td valign="top">5%</td></tr><tr><td>10</td><td valign="top">Taxable</td><td valign="top">Hawaii</td><td valign="top">7%</td></tr><tr><td>11</td><td valign="top">Taxable</td><td valign="top">Idaho</td><td valign="top">4%</td></tr><tr><td>12</td><td valign="top">Taxable</td><td valign="top">Illinois</td><td valign="top">5%</td></tr><tr><td>13</td><td valign="top">Taxable</td><td valign="top">Indiana</td><td valign="top">5%</td></tr><tr><td>14</td><td valign="top">Taxable</td><td valign="top">Kentucky</td><td valign="top">4%</td></tr><tr><td>15</td><td valign="top">Taxable</td><td valign="top">Louisiana</td><td valign="top">4%</td></tr><tr><td>16</td><td valign="top">Taxable</td><td valign="top">Maryland</td><td valign="top">5%</td></tr><tr><td>17</td><td valign="top">Taxable</td><td valign="top">Massachusetts</td><td valign="top">7%</td></tr><tr><td>18</td><td valign="top">Taxable</td><td valign="top">Minnesota</td><td valign="top">4%</td></tr><tr><td>19</td><td valign="top">Taxable</td><td valign="top">Missouri</td><td valign="top">5%</td></tr><tr><td>20</td><td valign="top">Taxable</td><td valign="top">Nevada</td><td valign="top">5%</td></tr><tr><td>21</td><td valign="top">Taxable</td><td valign="top">New Hampshire</td><td valign="top">4%</td></tr><tr><td>22</td><td valign="top">Taxable</td><td valign="top">New York</td><td valign="top">4%</td></tr><tr><td>23</td><td valign="top">Taxable</td><td valign="top">North Carolina</td><td valign="top">5%</td></tr><tr><td>24</td><td valign="top">Taxable</td><td valign="top">Ohio</td><td valign="top">5%</td></tr></table></span></td><td>
+      Description:
+      In Getting Started videos 4 and 5, we work with this decision table to add other conditions and a second action to execute.</td></tr><tr><td valign="top" title="SetTaxAmount"><span class="colx">SetTaxAmount</span></td><td><span class="colx">set <b>Tax Amount</b> to <b>Tax Rate</b> multiplied by <b>Subtotal</b></span></td><td></td></tr></table></div></div><div class="entity"><a class="HrefName" name="DataElements"></a><h2>Data Elements:</h2><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col width="60%"><tr><th>Data Element Parent</th><th>Data Element Name</th><th>Details</th></tr><tr><td><span class="colx">ShoppingCartApp</span></td><td><span class="colx">ListMemberStatus</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>None</td><td></td></tr><tr><td>Valued</td><td></td></tr><tr><td>Premium</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">ShoppingCartApp</span></td><td><span class="colx">ListShippingOption</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>None</td><td>None</td></tr><tr><td>OneDayShipping</td><td>One Day Shipping (1 business day)</td></tr><tr><td>TwoDayShipping</td><td>Two Day Shipping (2 business days)</td></tr><tr><td>StandardShipping</td><td>Standard Shipping (3 -5 business days)</td></tr></table></span></td></tr><tr><td><span class="colx">ShoppingCartApp</span></td><td><span class="colx">TableProduct</span></td><td><span class="colx"><table class="" bordercolor="#cccccc" border="1" cellpadding="2" cellspacing="2"><tr><td><u>ID
+        (Text)
+      </u></td><td><u>Name
+        (Text)
+      </u></td><td><u>LongDescription
+        (Text)
+      </u></td><td><u>Type
+        (Text)
+      </u></td></tr><tr><td>1????</td><td>?Batteries???</td><td>??AAA Batteries??</td><td>???Taxable?</td></tr><tr><td>2????</td><td>?Milk???</td><td>??Vitamin D Milk??</td><td>???Non-Tax?</td></tr><tr><td>3????</td><td>?Bread???</td><td>??Bread??</td><td>???Non-Tax?</td></tr><tr><td>4????</td><td>?Pencils???</td><td>??Number 2 Lead Pencil??</td><td>???Taxable?</td></tr></table></span></td></tr></table></div></body>
+</html>
