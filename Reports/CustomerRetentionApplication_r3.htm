@@ -1,0 +1,392 @@
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ir="http://www.inrule.com/XmlSchema/Schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+          body {
+          font: normal 8pt verdana,arial,helvetica;
+          color: #000000;
+          }
+          table tr th, table tr td {
+          font-size: 8pt;
+          text-align: left;
+          }
+          table.fields tr th{
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.fields tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+
+          table.rules tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.rules tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.calculations tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.calculations tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          table-layout:fixed;
+          overflow:visible;
+          }
+          table.notifications tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.notifications tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          table.actions tr th {
+          font-weight: bold;
+          background:#a6caf0;
+          }
+          table.actions tr td {
+          font-size: 8pt;
+          text-align: left;
+          background: #eeeee0;
+          }
+          h1 {
+          margin: 0px 0px 5px;
+          font: 14pt verdana,arial,helvetica;
+          }
+          h2 {
+          margin-top: 1em;
+          margin-bottom: 0.5em;
+          font: bold 125% verdana,arial,helvetica;
+          }
+          div.entity {
+          border: 1px solid #cccccc;
+          margin-bottom: 1em;
+          }
+          div.def {
+          border-bottom: 1px solid #cccccc;
+          }
+          div.rules {
+          border-bottom: 1px solid #cccccc;
+          }
+          span.colx {
+          
+          }
+          .code {
+          font-size: 11px;
+          font-weight: normal;
+          font-family: Lucida Console, monospace;
+          background-color: #eeeeee;
+          padding: 0.25cm;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #cccccc
+          }
+          table.rulesetfields tr {
+          background:#a6caf0;
+          text-align:left;
+          }
+          table.rulesetfields tr td {
+          font-size: 8pt;
+          text-align: left;
+          font-weight: normal;
+          background-color:tan;
+          }
+
+        </style>
+  </head>
+  <body>
+    <h1>InRule RuleApp Report</h1>
+        RuleApp Name:
+        CustomerRetentionApplication
+        Guid:
+        33fc35e6-4481-479a-b976-a1dc3399dcbf
+        Last Modified:
+        2022-12-27<br><br>
+          Total # Rules and Calcs:
+          5
+            # Entities:
+            2
+            # Fields:
+            27<br><hr size="1"><h2>Entities:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Entity1">Customer</a></td><td><a class="HrefLink" href="#Entity2">ML_Rationale</a></td><td></td><td></td></tr></table><h2>Independent Rule Sets:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"></table><h2>Data Elements, End Points, Udf Libraries and Categories:</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#DataElements">
+                    Data Elements
+                  </a></td><td><a class="HrefLink" href="#EndPoints">
+                    End Points
+                  </a></td><td><a class="HrefLink" href="#UdfLibraries">
+                    Udf Libraries
+                  </a></td><td><a class="HrefLink" href="#Categories">
+                    Categories
+                  </a></td><td></td></tr></table><div class="entity"><a class="HrefName" name="Entity1"></a><h2>
+          Entity: Customer</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields1">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations1">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules1">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions1">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields1"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Contract</span></td><td><span class="colx">Contract</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Dependents</span></td><td><span class="colx">Dependents</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">DeviceProtection</span></td><td><span class="colx">DeviceProtection</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">InternetService</span></td><td><span class="colx">InternetService</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">MonthlyCharges</span></td><td><span class="colx">MonthlyCharges</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">MultipleLines</span></td><td><span class="colx">MultipleLines</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">OnlineBackup</span></td><td><span class="colx">OnlineBackup</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">OnlineSecurity</span></td><td><span class="colx">OnlineSecurity</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">PaperlessBilling</span></td><td><span class="colx">PaperlessBilling</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Partner</span></td><td><span class="colx">Partner</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">PaymentMethod</span></td><td><span class="colx">PaymentMethod</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">PhoneService</span></td><td><span class="colx">PhoneService</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">SeniorCitizen</span></td><td><span class="colx">SeniorCitizen</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">StreamingMovies</span></td><td><span class="colx">StreamingMovies</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">StreamingTV</span></td><td><span class="colx">StreamingTV</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">TechSupport</span></td><td><span class="colx">TechSupport</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">CustomerID</span></td><td><span class="colx">Customer ID</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Gender</span></td><td><span class="colx">Gender</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Tenure</span></td><td><span class="colx">Tenure</span></td><td><span class="colx">Integer</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Churn</span></td><td><span class="colx">Churn</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">Score</span></td><td><span class="colx">Score</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">Customer</span></td><td><span class="colx">PredictionRationale</span></td><td><span class="colx">PredictionRationale</span></td><td><span class="colx">ML_Rationale</span></td><td></td><td><span class="colx"></span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations1"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr></table></div><a class="HrefName" name="Rules1"></a><div class="rules"><h2>
+          Rule Set:
+          Start</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Single-Pass Sequential
+      Description:
+      Following our Quick Start Guide, users will edit rules in this rule set to display notifications based on information received from a machine learning model. <table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td valign="top"><span class="colx">PhoneServiceMatching</span></td><td><span class="colx"><b>Decision Table</b><br><u>Condition:</u>?PhoneService<br>
+              Field:
+              PhoneService<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>PhoneService
+                      =
+                      Yes</td></tr><tr><td>No</td><td>PhoneService
+                      =
+                      No</td></tr></table><br><u>Condition:</u>?MultipleLines<br>
+              Field:
+              MultipleLines<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>MultipleLines
+                      =
+                      Yes</td></tr><tr><td>No</td><td>MultipleLines
+                      =
+                      No</td></tr><tr><td>No phone service</td><td>MultipleLines
+                      =
+                      No phone service</td></tr></table><br><u>Action:</u>?CheckService_Lines_Matching
+                (Business Language)
+              <br>
+              Display name:
+              Mismatched_Phone<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Phone Service Mismatch</td><td>
+                    (BL text not shown)
+                  </td></tr></table><br><u>Decisions</u><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th class="rules">Row #</th><th class="rules">PhoneService</th><th class="rules">MultipleLines</th><th class="rules" style="COLOR:#009900">Mismatched_Phone</th></tr><tr><td>1</td><td valign="top">Yes</td><td valign="top">Yes</td><td valign="top">
+                      -Ignore-
+                    </td></tr><tr><td>2</td><td valign="top">Yes</td><td valign="top">No</td><td valign="top">
+                      -Ignore-
+                    </td></tr><tr><td>3</td><td valign="top">Yes</td><td valign="top">No phone service</td><td valign="top">Phone Service Mismatch</td></tr><tr><td>4</td><td valign="top">No</td><td valign="top">Yes</td><td valign="top">Phone Service Mismatch</td></tr><tr><td>5</td><td valign="top">No</td><td valign="top">No</td><td valign="top">
+                      -Ignore-
+                    </td></tr><tr><td>6</td><td valign="top">No</td><td valign="top">No phone service</td><td valign="top">
+                      -Ignore-
+                    </td></tr></table></span></td><td>
+      Description:
+      Determines if customer record has valid information by checking PhoneService field against MultipleLines field and only allowing valid combinations.</td></tr><tr><td valign="top"><span class="colx">InternetServiceMatching</span></td><td><span class="colx"><b>Decision Table</b><br><u>Condition:</u>?InternetService<br>
+              Field:
+              InternetService<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>No</td><td>InternetService
+                      =
+                      No</td></tr><tr><td>DSL</td><td>InternetService
+                      =
+                      DSL</td></tr><tr><td>Fiber optic</td><td>InternetService
+                      =
+                      Fiber optic</td></tr></table><br><u>Condition:</u>?DeviceProtection<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              DeviceProtection<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>DeviceProtection
+                      =
+                      Yes</td></tr><tr><td>No</td><td>DeviceProtection
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>DeviceProtection
+                      =
+                      No internet service</td></tr></table><br><u>Condition:</u>?Tech Support<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              TechSupport<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>TechSupport
+                      =
+                      Yes</td></tr><tr><td>No</td><td>TechSupport
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>TechSupport
+                      =
+                      No internet service</td></tr></table><br><u>Condition:</u>?StreamingTV<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              StreamingTV<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>StreamingTV
+                      =
+                      Yes</td></tr><tr><td>No</td><td>StreamingTV
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>StreamingTV
+                      =
+                      No internet service</td></tr></table><br><u>Condition:</u>?StreamingMovies<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              StreamingMovies<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>StreamingMovies
+                      =
+                      Yes</td></tr><tr><td>No</td><td>StreamingMovies
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>StreamingMovies
+                      =
+                      No internet service</td></tr></table><br><u>Condition:</u>?OnlineBackup<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              OnlineBackup<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>OnlineBackup
+                      =
+                      Yes</td></tr><tr><td>No</td><td>OnlineBackup
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>OnlineBackup
+                      =
+                      No internet service</td></tr></table><br><u>Condition:</u>?OnlineSecurity<br>
+              Allow 'Any' condition
+            <br>
+              Field:
+              OnlineSecurity<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Yes</td><td>OnlineSecurity
+                      =
+                      Yes</td></tr><tr><td>No</td><td>OnlineSecurity
+                      =
+                      No</td></tr><tr><td>No internet service</td><td>OnlineSecurity
+                      =
+                      No internet service</td></tr></table><br><u>Action:</u>?Check Internet Service Combinations
+                (Business Language)
+              <br>
+              Display name:
+              InternetServiceMismatch<table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><b><tr><th>Display name</th><th>Expression</th></tr></b><tr><td>Internet Service Mismatch</td><td>
+                    (BL text not shown)
+                  </td></tr></table><br><u>Decisions</u><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th class="rules">Row #</th><th class="rules">InternetService</th><th class="rules">DeviceProtection</th><th class="rules">Tech Support</th><th class="rules">StreamingTV</th><th class="rules">StreamingMovies</th><th class="rules">OnlineBackup</th><th class="rules">OnlineSecurity</th><th class="rules" style="COLOR:#009900">InternetServiceMismatch</th></tr><tr><td>1</td><td valign="top">No</td><td valign="top">Yes</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Internet Service Mismatch</td></tr><tr><td>2</td><td valign="top">No</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Yes</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Internet Service Mismatch</td></tr><tr><td>3</td><td valign="top">No</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Yes</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Internet Service Mismatch</td></tr><tr><td>4</td><td valign="top">No</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Yes</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Internet Service Mismatch</td></tr><tr><td>5</td><td valign="top">No</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Yes</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Internet Service Mismatch</td></tr><tr><td>6</td><td valign="top">No</td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">
+                      -Any-
+                    </td><td valign="top">Yes</td><td valign="top">Internet Service Mismatch</td></tr></table></span></td><td>
+      Description:
+      Determines if customer record has valid information by checking InternetService field against several related fields to ensure only valid combinations are allowed.</td></tr><tr><td valign="top" title="UserNotificationRules"><span class="colx">UserNotificationRule...
+      </span></td><td><span class="colx"><b>Take the following actions:</b><br>&nbsp;&nbsp;&nbsp;&nbsp;using xAI Workbench, predict the likelihood this customer will churn<br><b>&nbsp;&nbsp;&nbsp;&nbsp;If</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the customer is not likely to churn<br><b>&nbsp;&nbsp;&nbsp;&nbsp;Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fire notification "This customer is not likely to churn."<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display an informational notification about the top contributing factor <br><b>&nbsp;&nbsp;&nbsp;&nbsp;Else</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fire notification "This customer is likely to churn." with the following settings: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as warning   </span></td><td>
+      Description:
+      This business language rule represents querying a machine learning model and displaying notifications depending on the result.</td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          PredictChurnPotential</h2>
+    Fire mode:
+    Explicit
+      Description:
+      This rule set is empty when first populated in a trial catalog. Through our step-by-step Quick Start Guide (available from the Resources section of the portal), users will add a machine learning prediction action to this rule set which queries a model in xAI Workbench.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          Evaluate_xAI_Results</h2>
+    Fire mode:
+    Explicit
+      Description:
+      Following our Quick Start Guide, users will add business logic to the "User Notification Rules" that will enable them to evaluate and operationalize information returned from a machine learning model.<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr><tr><td title="Declare currentItem"><span class="colx">
+            Declare
+            currentItem</span></td><td><span class="colx">
+          Declare
+          currentItem
+          as
+          Integer</span></td><td></td></tr><tr><td valign="top" title="BuildUserNotification"><span class="colx">BuildUserNotificatio...
+      </span></td><td><span class="colx"><b>Take the following actions:</b><br><b>&nbsp;&nbsp;&nbsp;&nbsp;While</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>currentItem</b> is less than <b>numberOfTopItems</b><br><b>&nbsp;&nbsp;&nbsp;&nbsp;Do the following:</b><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the selected feature is there<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fire notification <b>evaluatedFeature</b> & " appears in the top " & <b>numberOfTopItems</b> & " reasons for this prediction. It is ranked: " & <b>currentItem</b> & "." with the following settings: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as informational<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allow multiple notifications  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set <b>currentItem</b> to <b>currentItem</b> plus 1  </span></td><td>
+      Description:
+      Following our Quick Start Guide, users will see how this business logic operationalizes the rich results returned by a machine learning model query. They will then add actions to the business logic to more deeply interpret the result.</td></tr></table></div><div class="rules"><h2>
+          Rule Set:
+          RuleSet2</h2>
+    Fire mode:
+    Auto<br>
+      Run mode:
+      Single-Pass Sequential<table class="rules" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="60%"><col width="20%"><tr><th>Rule or Action</th><th>Detail</th><th>Description, Notes, and Categories</th></tr></table></div></div><div class="entity"><a class="HrefName" name="Entity2"></a><h2>
+          Entity: ML_Rationale -- Display Name: ML Rationale</h2><table class="links" border="0" cellpadding="3" cellspacing="2" width="100%"><col width="20%"><col width="20%"><col width="20%"><col width="20%"><tr><td><a class="HrefLink" href="#Fields2">
+                  Fields
+                </a></td><td><a class="HrefLink" href="#Calculations2">
+                  Calculations
+                </a></td><td><a class="HrefLink" href="#Rules2">
+                  Rule Sets
+                </a></td><td><a class="HrefLink" href="#Actions2">
+                  Actions
+                </a></td><td></td></tr></table><div class="def"><a class="HrefName" name="Fields2"></a><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Field parent</th><th>Field name</th><th>Display name</th><th>Data type</th><th>Default value</th><th>
+                  Description, Notes, and Categories
+                </th></tr><tr><td><span class="colx">ML_Rationale</span></td><td><span class="colx">Threshold</span></td><td><span class="colx">Threshold</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ML_Rationale</span></td><td><span class="colx">Binomial</span></td><td><span class="colx">Binomial</span></td><td><span class="colx">Boolean</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ML_Rationale</span></td><td><span class="colx">WinningPrediction</span></td><td><span class="colx">Winning Prediction</span></td><td><span class="colx">Complex</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">WinningPrediction</span></td><td><span class="colx">PredictedClassName</span></td><td><span class="colx">Predicted Class Name</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">WinningPrediction</span></td><td><span class="colx">Score</span></td><td><span class="colx">Score</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ML_Rationale</span></td><td><span class="colx">PredictedClasses</span></td><td><span class="colx">Predicted Classes</span></td><td><span class="colx">Complex</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">PredictedClasses</span></td><td><span class="colx">PredictedClassName</span></td><td><span class="colx">Predicted Class Name</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">PredictedClasses</span></td><td><span class="colx">Score</span></td><td><span class="colx">Score</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ML_Rationale</span></td><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">Features Contribution</span></td><td><span class="colx">Complex</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">ColName</span></td><td><span class="colx">Col Name</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">Value</span></td><td><span class="colx">Value</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">ContributionByClass</span></td><td><span class="colx">ContributionByClass</span></td><td><span class="colx">Complex</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ContributionByClass</span></td><td><span class="colx">PredictedClassName</span></td><td><span class="colx">Predicted Class Name</span></td><td><span class="colx">String</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">ContributionByClass</span></td><td><span class="colx">Contribution</span></td><td><span class="colx">Contribution</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">WinningPredictionContribution</span></td><td><span class="colx">Winning Prediction Contribution</span></td><td><span class="colx">Decimal</span></td><td></td><td><span class="colx"></span></td></tr><tr><td><span class="colx">FeaturesContribution</span></td><td><span class="colx">FeatureValueIsPresent</span></td><td><span class="colx">Feature Value Is Present</span></td><td><span class="colx">Boolean</span></td><td></td><td><span class="colx">
+      Description:
+      If true, the value of this feature (the field ML_Rationale.FeaturesContribution.Value) had an impact on the predicted outcome. If false, it means the *absence* of that value had an impact. </span></td></tr></table></div><div class="def"><a class="HrefName" name="Calculations2"></a><table class="calculations" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col><col><col><col width="30%"><tr><th>Calc parent</th><th>Calc name</th><th>Display name</th><th>Data type</th><th>Expression</th><th>
+                  Description, Notes, and Categories
+                </th></tr></table></div></div><div class="entity"><a class="HrefName" name="DataElements"></a><h2>Data Elements:</h2><table class="fields" bordercolor="#cccccc" border="0" cellpadding="3" cellspacing="2" width="100%"><col><col><col width="60%"><tr><th>Data Element Parent</th><th>Data Element Name</th><th>Details</th></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">Contract_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Month-to-month</td><td></td></tr><tr><td>One year</td><td></td></tr><tr><td>Two year</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">InternetService_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>No</td><td></td></tr><tr><td>DSL</td><td></td></tr><tr><td>Fiber optic</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">OneZero_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>0</td><td>No (0)</td></tr><tr><td>1</td><td>Yes (1)</td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">PaymentMethod_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Bank transfer (automatic)</td><td></td></tr><tr><td>Credit card (automatic)</td><td></td></tr><tr><td>Electronic check</td><td></td></tr><tr><td>Mailed check</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">YesNo_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Yes</td><td></td></tr><tr><td>No</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">YesNoNoInternetService_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Yes</td><td></td></tr><tr><td>No</td><td></td></tr><tr><td>No internet service</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">YesNoNoPhoneService_List</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Yes</td><td></td></tr><tr><td>No</td><td></td></tr><tr><td>No phone service</td><td></td></tr></table></span></td></tr><tr><td><span class="colx">CustomerRetentionApplication</span></td><td><span class="colx">CauseTypes</span></td><td><span class="colx"><table class="rules" style="BACKGROUND-COLOR:#FFFFFF"><tr><th>
+                    Value
+                  </th><th>
+                    Display Name
+                  </th></tr><tr><td>Contract</td><td></td></tr><tr><td>Dependents</td><td></td></tr><tr><td>DeviceProtection</td><td>Device Protection</td></tr><tr><td>Gender</td><td>Gender</td></tr><tr><td>InternetService</td><td>Internet Service</td></tr><tr><td>MonthlyCharges</td><td>Monthly Charges</td></tr><tr><td>MultipleLines</td><td>Multiple Lines</td></tr><tr><td>OnlineBackup</td><td>Online Backup</td></tr><tr><td>OnlineSecurity</td><td>Online Security</td></tr><tr><td>PaperlessBilling</td><td>Paperless Billing</td></tr><tr><td>Partner</td><td></td></tr><tr><td>PaymentMethod</td><td>Payment Method</td></tr><tr><td>PhoneService</td><td>Phone Service</td></tr><tr><td>StreamingMovies</td><td>Streaming Movies</td></tr><tr><td>StreamingTV</td><td>Streaming TV</td></tr><tr><td>TechSupport</td><td>Tech Support</td></tr><tr><td>Tenure</td><td>Tenure</td></tr></table></span></td></tr></table></div></body>
+</html>
